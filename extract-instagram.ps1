@@ -1,1 +1,1 @@
-yt-dlp --batch-file "$HOME\Downloads\links-reels.txt" -x --audio-format mp3 --audio-quality 2 --windows-filenames -P "$HOME\Music\WAR MAN BRASIL" -o "%(id)s.%(ext)s" --download-archive "$HOME\Downloads\reels-baixados.txt" --sleep-interval 5 --max-sleep-interval 10 --retries 5
+yt-dlp --batch-file "$HOME\Downloads\links-reels.txt" -x --audio-format mp3 --audio-quality 2 --windows-filenames -P "$HOME\Music\OUTPUT_FOLDER" -o "%(id)s.%(ext)s" --download-archive "$HOME\Downloads\reels-baixados.txt" --sleep-interval 5 --max-sleep-interval 10 --retries 5

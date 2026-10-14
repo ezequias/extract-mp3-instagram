@@ -16,6 +16,9 @@ winget --version
 
 Se aparecer um número de versão, execute os comandos abaixo, um de cada vez.
 
+
+#
+
 ### Instalar o yt-dlp
 
 ```powershell
